@@ -1,0 +1,14 @@
+ void inputData()
+{
+       int a;
+       string b;
+       /*cout<<"a ="<<endl;
+       cin>>a;
+       cout<<"b ="<<endl;
+       cin>>b;*/
+       cin>>a;
+       cin>>b;
+       cout<<a<<" "<<b<<endl;
+       
+      //Use cin to take input and cout a and b with a space between them. Also use an endl after output
+}
