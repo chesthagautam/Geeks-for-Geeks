@@ -1,0 +1,7 @@
+void printNewLine(){
+    
+    cout<<"Geeks \nfor \nGeeks"<<endl;
+   // return 0;
+    
+    
+}
