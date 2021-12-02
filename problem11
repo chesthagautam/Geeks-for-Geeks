@@ -1,0 +1,17 @@
+class Solution{
+    public:
+    void evenOdd(int a, int b){
+        if(a%2==0)
+         {
+              cout<<a<<endl;
+              cout<<b<<endl;
+         }
+         else if(b%2==0)
+         {
+               cout<<b<<endl;
+               cout<<a<<endl;
+         }
+         
+         
+    }
+};
