@@ -1,0 +1,8 @@
+void logicOp(int a, int b)
+{
+    bool x=a&&b;
+    bool y=a||b;
+    bool z=(!a)&&(!b);
+    cout<<x<<" "<<y<<" "<<z;
+    cout<<endl;
+}
