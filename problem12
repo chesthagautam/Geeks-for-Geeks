@@ -1,0 +1,13 @@
+void bitWiseOperation(int a, int b, int c) {
+
+    int d=a^a;
+    int e=c^b;
+    int f=a&b;
+    int g=c|(a^a);
+    int h=~e;
+    cout<<d<<endl;
+    cout<<e<<endl;
+    cout<<f<<endl;
+    cout<<g<<endl;
+    cout<<h<<endl;
+}
