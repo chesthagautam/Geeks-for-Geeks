@@ -1,0 +1,8 @@
+void printHello(){
+    cout<<"Hello World"<<endl;
+    
+    //string a="Hello World";
+    // getline(cin,a);
+   
+    
+}
