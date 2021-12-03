@@ -1,0 +1,14 @@
+string isPrime(int n) {
+    if(n==1)
+      return "No";
+    else if(n==2)
+      return "Yes";
+    else if(n%2==0)
+      return "No";
+    for (int i = 3; i <= sqrt(n); i++) {
+        if(n%i==0)
+          return "No";
+        
+    }
+    return "Yes";
+}
