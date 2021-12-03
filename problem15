@@ -1,0 +1,16 @@
+class Solution{
+    public:
+    void printTable(int n)
+    {
+        int multiplier=10;
+        while(multiplier)
+        {
+           int table=multiplier*n;
+           cout<<table<<" ";
+           table=-n;
+           multiplier--;
+        }
+        
+        cout<<endl;
+    }  
+};
