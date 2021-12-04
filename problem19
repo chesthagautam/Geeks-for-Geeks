@@ -1,0 +1,23 @@
+class Solution{
+    public:
+    int countChars(string s1, string s2){
+        
+        int a[257]={0};
+        int b[257]={0};
+        
+        for(int i=0;i<s1.size();i++)
+            {
+                a[s1[i]]++;
+            }
+        for(int i=0;i<s2.size();i++)
+            {
+                b[s2[i]]++;
+            }
+            int sum=0;
+            for(int i=0;i<257;i++)
+            {
+                sum+=abs(a[i]-b[i]);
+            }
+            return sum;
+        }
+};
